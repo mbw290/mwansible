@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  serial: 10
   tasks:
     - name: reboot windows
       win_reboot:
