@@ -5,3 +5,7 @@
   tasks:
     - name: ping host
       ping:
+
+    - name: echo name
+      debug:
+        msg: "{{ name }}"
