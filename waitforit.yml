@@ -1,0 +1,6 @@
+---
+- hosts:
+  tasks:
+    - name: Wait until the file is present
+      wait_for:
+        path: "{{ file_name }}"
