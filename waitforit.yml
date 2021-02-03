@@ -1,5 +1,5 @@
 ---
-- hosts:
+- hosts: all
   tasks:
     - name: Wait until the file is present
       wait_for:
